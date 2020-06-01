@@ -1,0 +1,28 @@
+button
+{
+	display: block;
+	margin-bottom: 20px;
+	width: 140px;
+	height: 80px;
+	border:1px solid;
+	border-radius: 5px;
+}
+.mygrid
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	overflow: auto;
+  	white-space: nowrap;
+  	text-align: center;
+}
+.mygrid > button
+{
+	font-weight: bold;
+	display: inline-block;
+}
+img
+{
+	width: 40px;
+	height: 40px;
+}
