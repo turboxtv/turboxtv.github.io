@@ -1,0 +1,17 @@
+button
+{
+	display: block;
+	margin-bottom: 20px;
+	width: 140px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+#notes
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+ul
+{
+	text-align: left;
+}
