@@ -1,0 +1,12 @@
+#back
+{
+	float:left;
+}
+#see-trailer
+{
+	float: right;
+}
+#trailer
+{
+	clear: both;
+}
