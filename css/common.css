@@ -1,0 +1,19 @@
+#loading-gif
+{
+	text-align: center;position: absolute;
+	top: 50%; right: 50%;
+	transform: translate(50%,-50%);
+	text-align: center;
+}
+#loading-gif img
+{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+#loading-gif span
+{
+	display: block;
+	font-weight: bold;
+}
