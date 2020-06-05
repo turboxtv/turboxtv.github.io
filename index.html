@@ -23,5 +23,27 @@
 				<img src="https://i.ya-webdesign.com/images/file-folder-icon-png-4.png"><br>
 				ΤΑΙΝΙΕΣ</button>
 		</div>
+
+		<center>
+			<div class="container" id="announcement">
+				
+			</div>
+		</center>
+
+
+		<script type="text/javascript">
+			var destroyDate = 8;
+			var destroyMonth = 6;
+			var destroyYear = 2020;
+			var currentDate = new Date().getDate();
+			var currentMonth = new Date().getMonth() + 1;
+			var currentYear = new Date().getFullYear();
+			if (currentDate < destroyDate && currentMonth == destroyMonth && currentYear == destroyYear )
+			{
+				$("#announcement").html("* Ο ΕΠΙΖΩΝ ΤΗΣ ΕΠΟΜΕΝΗΣ ΜΕΡΑΣ ΣΤΙΣ ΣΕΙΡΕΣ<br>(ΤΟ ΜΥΝΗΜΑ ΑΥΤΟ ΘΑ ΑΦΑΙΡΕΘΕΙ ΑΥΤΟΜΑΤΑ ΣΤΙΣ 08/06/2020)");
+				$("#announcement").addClass("text-danger");
+				$("#announcement").addClass("font-weight-bold");
+			}
+		</script>
 </body>
 </html>
