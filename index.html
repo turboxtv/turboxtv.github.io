@@ -25,9 +25,13 @@
 		</div>
 
 		<center>
-			<div class="container text-danger" id="announcement">
-				<b>* 19 ΚΑΙΝΟΥΡΓΙΕΣ ΤΑΙΝΙΕΣ ΠΡΟΣΤΕΘΗΚΑΝ</b>
-				
+			<div class="container text-danger font-weight-bold" id="announcement">
+				<script type="text/javascript">
+					if (new Date().getMonth() == 6 && new Date().getDate()<=5) // months are in range [0,11] date in range [1,31]
+					{
+  						document.getElementById("announcement").innerHTML = "* 19 ΚΑΙΝΟΥΡΓΙΕΣ ΤΑΙΝΙΕΣ ΠΡΟΣΤΕΘΗΚΑΝ";
+					}
+				</script>
 			</div>
 		</center>
 
